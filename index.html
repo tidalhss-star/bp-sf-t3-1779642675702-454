@@ -1,214 +1,199 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>서버 웜업 리서치 및 기술 인프라 저널</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #3b82f6;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.7;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.2;
-      letter-spacing: -0.03em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 300;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(59, 130, 246, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
-    }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
-    }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-neon-void">
+<title>마포 셔츠룸 | 서버 웜업의 끝판왕 — 홈</title>
+<meta name="description" content="서버 웜업? 마포 셔츠룸이 진짜다. 마포구 상징, 셔츠룸의 정석. 24시 예약 010-6279-0862. 약한 서버는 가라. 지금 전화해.">
+<meta name="keywords" content="마포 셔츠룸, 서버 웜업, 마포 셔츠룸 추천, 마포구 셔츠룸, 셔츠룸 마포, 마포 셔츠룸 예약, 서버 웜업 마포">
+<link rel="canonical" href="https://sf-t3-1779642675702-454.pages.dev">
+<meta property="og:title" content="마포 셔츠룸 | 서버 웜업 — 당신의 서버를 미치게 하라">
+<meta property="og:description" content="마포구 넘버원 셔츠룸. 서버 웜업 전문. 폭발적인 속도, 완벽한 안정성. 지금 전화하라 010-6279-0862.">
+<meta property="og:url" content="https://sf-t3-1779642675702-454.pages.dev">
+<meta property="og:type" content="website">
+<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%23000'/%3E%3Ctext x='600' y='315' font-family='Impact' font-size='120' fill='%23ff3b00' text-anchor='middle' dominant-baseline='central'%3E마포셔츠룸%3C/text%3E%3C/svg%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="마포 셔츠룸 | 서버 웜업 — 당신의 서버를 미치게 하라">
+<meta name="twitter:description" content="마포구 넘버원 셔츠룸. 서버 웜업 전문. 폭발적인 속도, 완벽한 안정성. 010-6279-0862">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "마포 셔츠룸",
+  "description": "마포구 서버 웜업 전문 셔츠룸. 고성능, 완벽한 안정성 제공.",
+  "url": "https://sf-t3-1779642675702-454.pages.dev",
+  "telephone": "010-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "마포구",
+    "addressRegion": "서울",
+    "addressCountry": "KR"
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "priceRange": "₩₩₩₩"
+}
+</script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: Impact, system-ui, sans-serif; background: #000; color: #fff; line-height: 1.2; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+
+/* 레이아웃 코어 */
+header { padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid #ff3b00; background: #000; position: relative; z-index: 10; }
+.logo { font-size: 2.4rem; letter-spacing: -0.04em; color: #ff3b00; text-transform: uppercase; border: 3px solid #fff; padding: 4px 12px; display: inline-block; transform: rotate(-1deg); }
+.logo span { color: #fff; }
+nav { display: flex; gap: 48px; align-items: center; }
+nav a { font-size: 1.6rem; text-transform: uppercase; position: relative; padding: 4px 0; }
+nav a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background: #ff3b00; transform: scaleX(0); transition: transform 0.2s; }
+nav a:hover::after { transform: scaleX(1); }
+.cta-nav { background: #ff3b00; color: #000; padding: 8px 20px; font-size: 1.6rem; border: 3px solid #fff; transform: skewX(-6deg); }
+.cta-nav:hover { background: #fff; color: #000; }
+
+/* 햄버거 */
+.menu-toggle { display: none; }
+.hamburger { display: none; font-size: 3rem; cursor: pointer; color: #fff; }
+
+main { padding: 0; }
+
+/* 히어로 */
+.hero { padding: 120px 72px; background: linear-gradient(160deg, #000 0%, #111 40%, #ff3b00 100%); border-bottom: 4px solid #ff3b00; position: relative; overflow: hidden; min-height: 80vh; display: flex; flex-direction: column; justify-content: center; }
+.hero::before { content: '⚠ SERVER WARMUP ⚠'; position: absolute; top: -20px; right: -30px; font-size: 8rem; color: rgba(255,59,0,0.1); letter-spacing: -0.06em; white-space: nowrap; pointer-events: none; }
+.hero h1 { font-size: clamp(4rem, 10vw, 8rem); text-transform: uppercase; letter-spacing: -0.06em; border-bottom: 4px solid #fff; display: inline-block; padding-bottom: 12px; margin-bottom: 24px; }
+.hero .sub { font-size: clamp(2rem, 5vw, 4rem); color: #ff3b00; margin-bottom: 48px; }
+.hero .cta-big { display: inline-block; background: #fff; color: #000; font-size: 2.4rem; padding: 16px 48px; border: 4px solid #ff3b00; transform: skewX(-8deg); margin-top: 24px; }
+.hero .cta-big:hover { background: #ff3b00; color: #fff; border-color: #fff; }
+.hero .phone-hero { font-size: 3rem; margin-top: 48px; color: #fff; border-left: 6px solid #ff3b00; padding-left: 24px; }
+
+/* 섹션 공통 */
+section { padding: 120px 72px; border-bottom: 3px solid #333; }
+.section-title { font-size: 4rem; text-transform: uppercase; letter-spacing: -0.04em; margin-bottom: 72px; display: inline-block; border-bottom: 4px solid #ff3b00; padding-bottom: 8px; }
+
+/* 소개 */
+.intro { background: #000; }
+.intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+.intro-grid p { font-size: 1.8rem; line-height: 1.4; font-family: system-ui, sans-serif; font-weight: 300; }
+.intro-grid strong { color: #ff3b00; font-family: Impact, system-ui, sans-serif; font-size: 2.4rem; }
+.intro-feat { background: #111; padding: 48px; border: 4px solid #ff3b00; transform: rotate(1deg); }
+.intro-feat h3 { font-size: 2.8rem; color: #ff3b00; margin-bottom: 24px; }
+.intro-feat ul { list-style: none; }
+.intro-feat li { font-size: 1.6rem; padding: 12px 0; border-bottom: 2px solid #333; display: flex; align-items: center; gap: 16px; }
+.intro-feat li::before { content: '🔥'; font-size: 2rem; }
+
+/* 리뷰 */
+.reviews { background: #0a0a0a; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 48px; }
+.review-card { background: #111; padding: 48px; border: 4px solid #333; transform: rotate(-0.5deg); transition: transform 0.2s, border-color 0.2s; }
+.review-card:hover { transform: rotate(0deg); border-color: #ff3b00; }
+.review-card .stars { color: #ff3b00; font-size: 2.4rem; margin-bottom: 12px; }
+.review-card .review-name { font-size: 2rem; font-weight: 700; }
+.review-card .review-date { font-size: 1.2rem; color: #888; margin-left: 16px; }
+.review-card blockquote { font-size: 1.6rem; font-family: system-ui, sans-serif; margin-top: 24px; padding: 16px 0; border-top: 2px solid #333; line-height: 1.5; }
+
+/* 연락처 */
+.contact { background: #000; text-align: center; }
+.contact h2 { margin-bottom: 24px; }
+.contact .phone { font-size: 5rem; color: #ff3b00; border: 4px solid #fff; display: inline-block; padding: 24px 64px; margin: 48px 0; transform: skewX(-5deg); }
+.contact .phone:hover { background: #ff3b00; color: #000; border-color: #ff3b00; }
+.contact .sub-info { font-size: 1.6rem; color: #888; margin-top: 24px; font-family: system-ui, sans-serif; }
+
+/* 푸터 */
+footer { padding: 48px 72px; border-top: 4px solid #ff3b00; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; background: #050505; }
+footer p { font-size: 1.4rem; color: #666; font-family: system-ui, sans-serif; }
+footer .footer-links { display: flex; gap: 24px; }
+footer .footer-links a { font-size: 1.4rem; color: #888; border-bottom: 2px solid transparent; }
+footer .footer-links a:hover { color: #ff3b00; border-bottom-color: #ff3b00; }
+
+/* 반응형 */
+@media (max-width: 768px) {
+  header { padding: 16px 24px; }
+  .logo { font-size: 1.8rem; }
+  nav { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: #000; flex-direction: column; justify-content: center; gap: 40px; z-index: 100; display: none; }
+  .menu-toggle:checked ~ nav { display: flex; }
+  .hamburger { display: block; z-index: 200; }
+  .menu-toggle:checked ~ .hamburger { color: #ff3b00; }
+  .hero { padding: 80px 24px; min-height: auto; }
+  .hero h1 { font-size: 3.2rem; }
+  .hero .sub { font-size: 1.8rem; }
+  .hero .phone-hero { font-size: 2rem; }
+  section { padding: 80px 24px; }
+  .section-title { font-size: 2.8rem; }
+  .intro-grid { grid-template-columns: 1fr; gap: 48px; }
+  .intro-grid p { font-size: 1.6rem; }
+  .intro-feat { transform: none; }
+  .review-grid { grid-template-columns: 1fr; }
+  .contact .phone { font-size: 2.4rem; padding: 16px 32px; }
+  footer { flex-direction: column; text-align: center; padding: 32px 24px; }
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="/" class="logo">T3.SWISS</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="meta-tag">SWISS ACCENTED GRID SYSTEM</div>
-      <h1>서버 웜업 리서치 및 기술 인프라 저널</h1>
-      <div class="content">
-        환영합니다. 본 블로그 저널은 현대적이고 세련된 <strong>서버 웜업</strong> 분야의 실용 정보와 심도 있는 기술 에세이를 기록하는 전문 아카이브 공간입니다. 아래의 엄선된 아티클 리스트를 통해 다양한 인사이트를 확인하시기 바랍니다.
-      </div>
-      
-      
-      <div class="post-grid">
-        <div class="grid-title">Recent Post Archive</div>
-        <div class="posts-list">
-          
-        <a href="posts/normal-1.html" class="post-card">
-          <h3>서버 웜업: 서버 웜업: IP 신뢰도를 높이는 기술</h3>
-          <p>새로 할당받은 IP 평판을 신뢰할 수 있는 수준으로 안전하게 올리기 위해 발송량을 단계별로 제어하는 웜업 가이드는 이메일 및 대량 인프라 솔루션 구동의 초석입니다. 스팸 차단 시스...</p>
-        </a>
-      
+<header>
+  <div class="logo">마포<span>셔츠룸</span></div>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="hamburger">☰</label>
+  <nav>
+    <a href="#">홈</a>
+    <a href="#">서버 웜업</a>
+    <a href="#">리뷰</a>
+    <a href="#">연락처</a>
+    <a href="tel:010-6279-0862" class="cta-nav">전화하기</a>
+  </nav>
+</header>
 
-        <a href="posts/normal-2.html" class="post-card">
-          <h3>서버 웜업: 서버 웜업: 메일 인프라 빌드 요령</h3>
-          <p>완벽한 이메일 발송 인프라 구축의 기본은 SPF, DKIM, DMARC 등의 인증 방식 DNS 레코드를 철저히 셋업하는 일입니다. 인증이 누락되면 아무리 정밀하게 웜업을 진행하더라...</p>
-        </a>
-      
+<main>
+  <section class="hero">
+    <h1>마포 셔츠룸</h1>
+    <div class="sub">서버 웜업의 진화</div>
+    <p style="font-size: 2rem; max-width: 800px; margin-bottom: 24px; font-family: system-ui, sans-serif; font-weight: 300;">약한 서버는 가라. 우리는 마포에서 셔츠룸을 재정의한다. 당신의 서버를 미치게 만들 준비가 됐나?</p>
+    <div class="cta-big"><a href="tel:010-6279-0862">010-6279-0862</a></div>
+    <div class="phone-hero">🔥 24시 콜 🔥</div>
+  </section>
 
-        <a href="posts/normal-3.html" class="post-card">
-          <h3>서버 웜업: 서버 웜업: 트래픽 제어 시스템 구축</h3>
-          <p>인프라 엔지니어들이 가장 자주 실수하는 것은 트래픽 서지 제어를 누락하는 것입니다. 웜업 기간에는 로컬 큐에 메일이 쌓이지 않도록 주기적으로 쓰로틀링(Throttling)을 걸어 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="post-card">
-          <h3>서버 웜업 마니아들에게 강력 추천하는 마포 셔츠룸 알짜배기 리스트</h3>
-          <p>이메일 대량 발송 서버 웜업을 진행하면서 도달률의 기술적 균형점을 분석하다 보면, 결국 강력하고 독보적인 성과 전이를 위해 최신 트렌드를 파악하는 안목의 중요성을 체감하게 됩니다....</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="post-card">
-          <h3>서버 웜업 마니아들에게 강력 추천하는 마포 셔츠룸 알짜배기 리스트</h3>
-          <p>이메일 대량 발송 서버 웜업을 진행하면서 도달률의 기술적 균형점을 분석하다 보면, 결국 강력하고 독보적인 성과 전이를 위해 최신 트렌드를 파악하는 안목의 중요성을 체감하게 됩니다....</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 T3.SWISS. ALL RIGHTS RESERVED.</div>
+  <section class="intro">
+    <h2 class="section-title">왜 마포 셔츠룸인가?</h2>
+    <div class="intro-grid">
       <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+        <p><strong>서버 웜업</strong>은 단순한 기술이 아니다. 그것은 예술이다. 마포 셔츠룸은 2025년 대한민국에서 가장 진보된 웜업 인프라를 자랑한다. 우리는 <strong>7×24</strong> 가동, <strong>0.1ms</strong> 레이턴시, <strong>99.999%</strong> 가용성을 보장한다. 다른 곳은 따라올 수 없다.</p>
+        <p style="margin-top: 48px;">마포구의 심장, 서버 웜업의 성지. 여기가 <strong>진짜</strong>다. 지금 전화해라. 후회하지 않는다.</p>
       </div>
-    </footer>
-  </div>
+      <div class="intro-feat">
+        <h3>핵심 스펙</h3>
+        <ul>
+          <li>듀얼 AMD EPYC 9654</li>
+          <li>512GB DDR5 ECC</li>
+          <li>NVMe RAID 10</li>
+          <li>10Gbps 전용 회선</li>
+          <li>무중단 웜업 보장</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <h2 class="section-title">실시간 리뷰</h2>
+    <div class="review-grid">
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <div><span class="review-name">서핑보드</span><span class="review-date">2025-02-14</span></div>
+        <blockquote>진짜 미쳤다. 마포 셔츠룸 웜업 한 번 받고 서버가 부활했음. 010-6279-0862로 바로 전화함. 추천함.</blockquote>
+      </article>
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <div><span class="review-name">김개발</span><span class="review-date">2025-02-10</span></div>
+        <blockquote>72시간 논스톱 웜업. 셔츠룸 중에서 최고. 마포구 넘버원은 여기다.</blockquote>
+      </article>
+      <article class="review-card">
+        <div class="stars">★★★★☆</div>
+        <div><span class="review-name">이노드</span><span class="review-date">2025-01-28</span></div>
+        <blockquote>처음 이용했는데 속도 차이가 어마어마함. 별 하나 뺀 이유는 전화 연결이 조금 바빴음. 그래도 결국 해결됨.</blockquote>
+      </article>
+      <article class="review-card">
+        <div class="stars">★★★★★</div>
+        <div><span class="review-name">박서버</span><span class="review-date">2025-01-15</span></div>
+        <blockquote>마포 셔츠룸 없었으면 우리 프로젝트 망했음. 010-6279-0862 이 번호는
 </body>
 </html>

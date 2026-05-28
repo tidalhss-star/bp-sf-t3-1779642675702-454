@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>마포 셔츠룸 블로그 | 서버 웜업의 진실 — 약한 서버는 가라</title>
+    <meta name="description" content="서버 웜업의 은밀한 세계. 마포 셔츠룸이 증명한다. 가동률 99.9%, 응답시간 0.01초. 지금 확인하라 010-6279-0862">
+    <meta name="keywords" content="마포 셔츠룸, 서버 웜업, 마포 셔츠룸 블로그, 서버 최적화, 마포구 셔츠룸, 웜업 전략, 셔츠룸 후기">
+    <link rel="canonical" href="https://sf-t3-1779642675702-454.pages.dev">
+    <meta property="og:title" content="마포 셔츠룸 블로그 | 서버 웜업의 진실">
+    <meta property="og:description" content="마포구 넘버원 셔츠룸. 서버 웜업 전문. 폭발적인 속도, 완벽한 안정성. 블로그에서 깊이 파헤친다. 010-6279-0862">
+    <meta property="og:url" content="https://sf-t3-1779642675702-454.pages.dev/blog">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://sf-t3-1779642675702-454.pages.dev/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 셔츠룸 블로그 | 서버 웜업의 진실">
+    <meta name="twitter:description" content="서버 웜업의 비밀을 마포 셔츠룸이 밝힌다. 전화 010-6279-0862">
+    <meta name="twitter:image" content="https://sf-t3-1779642675702-454.pages.dev/twitter-image.jpg">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "서버 웜업의 진실: 마포 셔츠룸이 증명하는 가동률 99.9%의 비밀",
+            "description": "서버 웜업이 단순한 기술인가? 마포 셔츠룸이 말한다. 진짜 웜업은 시스템과 인간의 공존이다.",
+            "author": {
+                "@type": "Organization",
+                "name": "마포 셔츠룸"
+            },
+            "datePublished": "2025-04-10",
+            "dateModified": "2025-04-10",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://sf-t3-1779642675702-454.pages.dev/blog"
+            }
+        }
+    </script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-family: 'Space Grotesk', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            background-color: #0a0a0f;
+            color: #e0e0e0;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #0a0a0f 100%);
+            background-attachment: fixed;
+            padding-bottom: 4rem;
+        }
+
+        a {
+            color: #ff4d4d;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        a:hover {
+            color: #ff8080;
+            text-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* 레이아웃 코어 */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 77, 77, 0.2);
+            padding: 0.8rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 30px rgba(255, 77, 77, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            background: linear-gradient(135deg, #ff4d4d, #ff8080);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 20px rgba(255, 77, 77, 0.3);
+        }
+
+        .logo span {
+            display: inline-block;
+            background: none;
+            -webkit-text-fill-color: #e0e0e0;
+            color: #e0e0e0;
+            font-weight: 300;
+            margin-left: 0.3rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        nav a {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            position: relative;
+            padding-bottom: 0.3rem;
+            color: #a0a0a0;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #ff4d4d;
+            transition: width 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        nav a:hover {
+            color: #ff4d4d;
+        }
+
+        .cta-nav {
+            background: #ff4d4d;
+            color: #0a0a0f !important;
+            padding: 0.6rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-nav:hover {
+            background: #ff8080;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 77, 77, 0.4);
+            color: #0a0a0f !important;
+        }
+
+        .cta-nav::after {
+            display: none !important;
+        }
+
+        /* 햄버거 */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            z-index: 1001;
+        }
+
+        .hamburger {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background: #e0e0e0;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger::before,
+        .hamburger::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #e0e0e0;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger::before {
+            top: -9px;
+        }
+
+        .hamburger::after {
+            top: 9px;
+        }
+
+        .menu-toggle.active .hamburger {
+            background: transparent;
+        }
+
+        .menu-toggle.active .hamburger::before {
+            top: 0;
+            transform: rotate(45deg);
+            background: #ff4d4d;
+        }
+
+        .menu-toggle.active .hamburger::after {
+            top: 0;
+            transform: rotate(-45deg);
+            background: #ff4d4d;
+        }
+
+        .tel-link {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #ff4d4d;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(255, 77, 77, 0.3);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .tel-link:hover {
+            background: rgba(255, 77, 77, 0.1);
+            border-color: #ff4d4d;
+            color: #ff8080;
+        }
+
+        /* main 블로그 */
+        main {
+            padding-top: 100px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        .blog-header {
+            margin-bottom: 3rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 77, 77, 0.2);
+            padding-bottom: 2rem;
+        }
+
+        .blog-header h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: linear-gradient(135deg, #ff4d4d, #ff8080, #ff4d4d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 30px rgba(255, 77, 77, 0.2);
+        }
+
+        .blog-header .byline {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .blog-header .byline span {
+            color: #ff4d4d;
+            font-weight: 600;
+        }
+
+        .blog-post {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 77, 77, 0.15);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .blog-post::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, #ff4d4d, #ff8080);
+        }
+
+        .blog-post .post-meta {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.8rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-post .post-meta span {
+            color: #ff4d4d;
+        }
+
+        .blog-post h2 {
+            font-size: 2rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            margin-bottom: 1.5rem;
+            color: #e0e0e0;
+            line-height: 1.2;
+        }
+
+        .blog-post h2 strong {
+            background: linear-gradient(135deg, #ff4d4d, #ff8080);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .blog-post p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #c0c0c0;
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-post .highlight-box {
+            background: rgba(255, 77, 77, 0.05);
+            border-left: 3px solid #ff4d4d;
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .blog-post .highlight-box p {
+            margin-bottom: 0;
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+
+        .blog-post .highlight-box .cta-text {
+            font-size: 1.3rem;
+            color: #ff4d4d;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 800;
+        }
+
+        .blog-post blockquote {
+            border-left: 4px solid #ff4d4d;
+            padding: 1rem 2rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #a0a0a0;
+            background: rgba(255, 77, 77, 0.03);
+        }
+
+        .blog-post blockquote strong {
+            color: #ff4d4d;
+            font-style: normal;
+        }
+
+        .blog-post ul {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+        }
+
+        .blog-post ul li {
+            padding: 0.8rem 0 0.8rem 2rem;
+            position: relative;
+            border-bottom: 1px solid rgba(255, 77, 77, 0.1);
+            color: #c0c0c0;
+        }
+
+        .blog-post ul li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #ff4d4d;
+            font-weight: 700;
+        }
+
+        .blog-post .cta-button
+</body>
+</html>
