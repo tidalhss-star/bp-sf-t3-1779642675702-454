@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[마포 마포 셔츠룸]]></title>
-  <link>https://sf-t3-1779642675702-454.pages.dev</link>
-  <description><![CDATA[마포 서버 웜업 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 13:30:17 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 13:30:17 GMT</lastBuildDate>
-  <atom:link href="https://sf-t3-1779642675702-454.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+  <title><![CDATA[서버 웜업]]></title>
+  <link>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-454</link>
+  <description><![CDATA[서버 웜업 - 마포 셔츠룸 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Wed, 10 Jun 2026 19:52:38 GMT</pubDate>
+  <lastBuildDate>Wed, 10 Jun 2026 19:52:38 GMT</lastBuildDate>
+  <atom:link href="https://tidalhss-star.github.io/bp-sf-t3-1779642675702-454/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[마포 마포 셔츠룸 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://sf-t3-1779642675702-454.pages.dev/</link>
-      <guid isPermaLink="true">https://sf-t3-1779642675702-454.pages.dev/</guid>
-      <description><![CDATA[마포 서버 웜업 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 13:30:17 GMT</pubDate>
+      <title><![CDATA[마포 셔츠룸 현장에서 놓치기 쉬운 포인트를 기록해봤다]]></title>
+      <link>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-454/posts/field_note-001-7k7hn9.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-sf-t3-1779642675702-454/posts/field_note-001-7k7hn9.html</guid>
+      <description><![CDATA[### 제목: 창작한 제목마포 셔츠룸을 왜 선택했는지, 그리고 그 안에서 무엇을 발견했는지에 대해 이야기해보겠습니다. [keywords: 관광, 밤문화, 밀레니얼] 아, 진짜... 2016년 한일 통화스와프 협정이 만료 되면서 양국 중앙은행 간 비공식 채널에서 논의된 ]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[창작한 제목]]></title>
+      <link>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-454/posts/guide-002-7k7hn9.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-sf-t3-1779642675702-454/posts/guide-002-7k7hn9.html</guid>
+      <description><![CDATA[### 포스트 메타정보포스트 기획 테마: 스톡옵션 행사 시 퇴직연도에 따른 분리과세 vs 종합소득세 선택의 절세 효과 시뮬레이션 #### 도메인 지수 탈모 방지 및 앵커 텍스트 이식 가이드 정보를 참고하세요: 도메인 지수 탈모 방지 및 앵커 텍스트 이식 가이드 스톡옵션]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
